@@ -4,7 +4,7 @@
 .data
 
 ; ---------- Messages ----------
-menu db 'MENU$'
+menu db '**************MENU$**************'
 menu1 db 'Press 1 for Rikshaw$'
 menu2 db 'Press 2 for Car$'
 menu3 db 'Press 3 for Bus$'
@@ -19,7 +19,7 @@ msg4 db 'The Total Numbers Of Vehicles Parked = $'
 msg5 db 'The Total Number Of Rikshaws Parked = $'
 msg6 db 'The Total Number Of Cars Parked = $'
 msg7 db 'The Total Number Of Buses Parked = $'
-msg8 db '*Record Deleted Successfully*$'
+msg8 db '**************Record Deleted Successfully**************$'
 
 msg_empty db 'Empty Slot!!$'
 msg_idx db 'Enter record index (1-8) or 0 to delete ALL: $'
@@ -545,5 +545,6 @@ del_done:
     pop ax
     ret
 DeleteRecord endp
+
 
 end main
