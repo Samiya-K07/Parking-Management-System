@@ -4,7 +4,7 @@
 .data
 
 ; ---------- Messages ----------
-menu db '**************MENU$**************'
+menu db '**************MENU**************$'
 menu1 db 'Press 1 for Rikshaw$'
 menu2 db 'Press 2 for Car$'
 menu3 db 'Press 3 for Bus$'
@@ -548,3 +548,4 @@ DeleteRecord endp
 
 
 end main
+
